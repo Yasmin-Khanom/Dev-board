@@ -29,29 +29,51 @@
     
             <div class="space-y-10"> 
                 <div class="mb-10 bg-white rounded-lg p-2"> 
-                    <h2 class="text-lg font-semibold mb-4">Question-1: What are the different ways to select an element in the DOM?</h2><hr  class="text-gray-400">
-                    <p class="text-gray-600 mb-6 mt-4">Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                    <h2 class="text-lg font-bold mb-4">Question-1: What are the different ways to select an element in the DOM?</h2><hr  class="text-gray-400">
+                    <p class="text-black mb-6 mt-4">
+                        There are many different ways element in dom using javascript. Here are some Example
+                        <ul>
+                            <li>getElementById()</li>
+                            <li>getElementsByClassName()</li>
+                            <li>getElementsByTagName()</li>
+                            <li>querySelector()</li>
+                            <li>querySelectorAll()</li>
+                        </ul>
+                    </p>
                 </div>
     
                  
                 <div class="mb-10 bg-white rounded-lg p-2">
-                    <h2 class="text-lg font-semibold mb-4">Question-2: What is the difference between innerHTML, innerText, and textContent?</h2><hr  class="text-gray-400">
-                    <p class="text-gray-600 mb-6 mt-4">Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                    <h2 class="text-lg font-bold mb-4">Question-2: What is the difference between innerHTML, innerText, and textContent?</h2><hr  class="text-gray-400">
+                    <p class="text-black mb-6 mt-4">
+                        JavaScript-এ innerHTML, innerText, এবং textContent তিনটি প্রপার্টি HTML কনটেন্ট ম্যানিপুলেট করতে ব্যবহৃত হয়,<br>
+                        1.innerHTML:HTML কন্টেন্ট যোগ করতে বা পড়তে চাইলে innerHTML ব্যবহার করা হয়।<br>
+                        2.innerText:এটি শুধুমাত্র দৃশ্যমান টেক্সট return দেয়, এবং  এটি  Html tag না দেখিয়ে tag এর ভিতরের text গুলো কে দেখায়।<br>
+                        3.textContent:এটি পুরো text ফেরত দেয়, যতটুকুই থাকুক না কেন, Hidden এলিমেন্ট সহ। 
+                    </p>
                 </div>
     
                 <div class="mb-10 bg-white rounded-lg p-2">
                     <h2 class="text-lg font-semibold mb-4">Question-3: What is event delegation in the DOM?</h2><hr  class="text-gray-400">
-                    <p class="text-gray-600 mb-6 mt-4">Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                    <p class="text-gray-600 mb-6 mt-4">
+                        Event Delegation হলো একটি টেকনিক যেখানে আমরা parent element এ ইভেন্ট হ্যান্ডলার যোগ করি, যাতে তার child element গুলোর ইভেন্টও হ্যান্ডেল করা যায়। এর ফলে অনেকগুলো child element এর জন্য আলাদা আলাদা ইভেন্ট লিসেনার না লাগিয়েও ইভেন্ট ম্যানেজ করা যায়।
+                    </p>
                 </div>
     
                 <div class="mb-10 bg-white rounded-lg p-2">
                     <h2 class="text-lg font-semibold mb-4">Question-4: What is event bubbling in the DOM?</h2><hr  class="text-gray-400">
-                    <p class="text-gray-600 mb-6 mt-4">Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                    <p class="text-gray-600 mb-6 mt-4">
+                        Event Bubbling হলো একটি প্রক্রিয়া যেখানে কোনো ইভেন্ট প্রথমে child element ট্রিগার হয় এবং তারপর parent element এর দিকে উপরের দিকে যেতে থাকে।
+                    </p>
                 </div>
 
                 <div class="mb-10 bg-white rounded-lg p-2 ">
                     <h2 class="text-lg font-semibold mb-4">Question-5: How do you create, add, and remove elements using JavaScript?</h2><hr  class="text-gray-400">
-                    <p class="text-gray-600 mb-6 mt-4">Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                    <p class="text-gray-600 mb-6 mt-4">
+                        const cardContainer = documentById('card-container');<br>
+                        cardContainer.classlist.add('x');<br>
+                        cardContainer.classlist.remove('y');
+                    </p>
                 </div>
     
             </div>
