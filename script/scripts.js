@@ -16,7 +16,6 @@ for(const completesButton of completesButtons){
        const activityEnter = document.createElement('p');
        activityEnter.innerText =`completed Task: ${title}`;
        activityLog.appendChild(activityEnter);
-       
          });
             
 }
